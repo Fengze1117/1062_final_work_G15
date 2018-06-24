@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+}
+
+body{
+    text-align: center;
+}
+#title{
+    text-align: center;
+	padding: 3em 0em 3em 0em;
+}
+h1{
+    font-size: 40px;
+    color: rgb(10, 152, 196);
+    padding-bottom:10px; 
+}
+h2{
+    font-size: 20px;
+    color:rgb(10, 152, 196);
+}
+.content{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    border: 15px solid gold;
+    font-family: 'Oleo Script', cursive;
+    font-size: 23px;
+    color:whitesmoke;
+}

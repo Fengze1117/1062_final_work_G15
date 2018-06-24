@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bomber</title>
+    <meta charset="uft-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="../../css/skel.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+    </noscript>
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/jquery.dropotron.min.js"></script>
+    <script src="../../js/skel.min.js"></script>
+    <script src="../../js/skel-layers.min.js"></script>
+    <script src="../../js/init.js"></script>
+
+    <link rel="stylesheet" href="css/key.css">
+    <script src="js/key.js"></script>
+</head>
+
+<body onload="restart()">
+    <!-- Nav -->
+    <nav id="nav">
+        <ul>
+            <li class="active">
+                <a href="../../index.html">Home</a>
+            </li>
+            <li>
+                <a href="left-sidebar.html">Left Sidebar</a>
+            </li>
+            <li>
+                <a href="right-sidebar.html">Right Sidebar</a>
+            </li>
+            <li>
+                <a href="no-sidebar.html">No Sidebar</a>
+            </li>
+            <li>
+                <a href="">TKU</a>
+                <ul>
+                    <li>
+                        <a href="../w5_blog/blog.html">W5_blog</a>
+                    </li>
+                    <li>
+                        <a href="../w5_ImageGallery/ImageGallery.html">W5_ImageGallery</a>
+                    </li>
+                    <li>
+                        <a href="../w8_tku60/tku60.html">W8_tku60</a>
+                    </li>
+                    <li>
+                        <a href="index.html">W11_bcc</a>
+                    </li>
+                    <li>
+                        <a href="../../product/productindex.html">Product(專一)</a>
+                    </li>
+                    <li>
+                        <a href="../../review/index.html">心得</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <img src="img/title1.gif">
+    <form action="">
+        請輸入(1-99)其中一個數字 來開始終極密碼:
+        <br />
+        <input type="number" id="code" min="1" max="99" value="" autofocus>
+        <input type="button" value="Guess" onclick="doGuess()">
+        <input type="button" value="Restart" onclick="restart()">
+
+        <div id="bombs">
+            <img name="img1" src="img/bomber.png">
+            <img name="img2" src="img/bomber.png">
+            <img name="img3" src="img/bomber.png">
+            <img name="img4" src="img/bomber.png">
+            <img name="img5" src="img/bomber.png">
+            <img name="img6" src="img/bomber.png">
+        </div>
+    </form>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/headroom.min.js"></script>
+    <script src="../../assets/js/jQuery.headroom.min.js"></script>
+    <script src="../../assets/js/template.js"></script>
+</body>
+
+</html>
